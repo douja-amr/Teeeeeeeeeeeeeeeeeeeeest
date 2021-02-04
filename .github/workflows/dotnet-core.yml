@@ -49,7 +49,7 @@ jobs:
         msbuild /t:Pack /p:Configuration=Debug WebApplication1/WebApplication1.csproj
     
     - name: Copy
-      run: copy WebApplication1/WebApplication1/bin/Debug/*.nupkg .
+      run: Copy WebApplication1/bin/Debug/*.nupkg .
     
     # - name: PushNuget
     #   run: dotnet nuget push *.nupkg --source https://api.nuget.org/v3/index.json --api-key ${{ secrets.PUBLISH_TO_NUGET_ORG }} --skip-duplicate
