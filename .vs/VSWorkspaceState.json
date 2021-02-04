@@ -1,9 +1,7 @@
 {
   "ExpandedNodes": [
     "",
-    "\\.github",
-    "\\.github\\Workflows"
+    "\\.github"
   ],
-  "SelectedNode": "\\.github\\Workflows\\dotnet-core.yml",
   "PreviewInSolutionExplorer": false
 }
